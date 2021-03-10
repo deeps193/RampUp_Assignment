@@ -1,0 +1,8 @@
+DELIMITER //
+CREATE PROCEDURE User1Delete3()
+BEGIN 
+DELETE 
+FROM User1 
+         WHERE  (Age=21 );
+END //
+DELIMITER ;
